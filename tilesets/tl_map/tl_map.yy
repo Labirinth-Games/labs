@@ -1,9 +1,4 @@
 {
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
-  "name": "tl_map",
   "spriteId": {
     "name": "spr_designer_map",
     "path": "sprites/spr_designer_map/spr_designer_map.yy",
@@ -14,11 +9,15 @@
   "tileyoff": 0,
   "tilehsep": 0,
   "tilevsep": 0,
+  "spriteNoExport": true,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
-  "spriteNoExport": true,
   "out_columns": 2,
-  "tile_count": 3,
+  "tile_count": 4,
   "autoTileSets": [],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -27,6 +26,7 @@
       0,
       1,
       2,
+      3,
     ],
     "SerialiseFrameCount": 1,
   },
@@ -40,6 +40,7 @@
     "path": "folders/isometric/Tilemap.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tl_map",
   "tags": [],
   "resourceType": "GMTileSet",
 }

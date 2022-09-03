@@ -14,6 +14,6 @@ for (var tx = 0; tx < MAP_WIDTH; tx++)
 			if DEBUG
 				draw_rectangle(screenX - 32, screenY - 32, screenX + 32, screenY + tileZ + 32, true)
 				
-			draw_sprite(spr_floor, 1, screenX, screenY + tileZ)	
+			draw_sprite(spr_floor_types, tileIndex - 1, screenX, screenY + tileZ)	
 		}
 	}
